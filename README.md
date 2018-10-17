@@ -15,8 +15,15 @@ Then you change the directory to <strong>myProject</strong>
 
 ### Almost there!
 Just run the command</br>
-> npm start
+> npm install
 </br>
+
+It will take some time to install node modules 
+
+</br> 
+
+> npm start
+
 You are <strong>Good</strong> to go
 
 ### Testing and Running
