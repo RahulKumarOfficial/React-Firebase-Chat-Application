@@ -3,6 +3,7 @@ import Form from '../Form/Form';
 import firebase from 'firebase';
 import firebaseConfig from '../../config';
 import './App.css';
+import logo from '../../logo.png';
 
 firebase.initializeApp(firebaseConfig);
 
@@ -33,6 +34,9 @@ class App extends Component{
         return(
             <div className="App">
                 <div className="app_header">
+                React Firebase
+                        <img src={logo} className="app_logo" />
+                
                 {
                     !this.state.user ?(
                         <button

@@ -2,29 +2,34 @@
     text-align: center;
   }
   
-  .app__logo {
-    animation: App-logo-spin infinite 20s linear;
+  .app_logo {
+    animation: App-logo-spin infinite 4s cubic-bezier(0.80, -1.55, 0.40, -1.55);
     height: 80px;
+    margin-left: 35%;
+    margin-right: 40%;
   }
   
-  .app__header {
+  .app_header {
     background-color: #222;
     padding: 20px;
     color: white;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 100;
   }
   
-  .app__intro {
+  .app_intro {
     font-size: large;
   }
   
-  .app__list {
+  .app_list {
     width: 100%;
     max-width: 600px;
     padding: 20px;
     margin: 0 auto;
   }
   
-  .app__button {
+  .app_button {
     border: 0;
     border-radius: 0;
     padding: 10px 20px;
@@ -35,7 +40,7 @@
     outline: 0;
   }
   
-  .app__button:hover {
+  .app_button:hover {
     opacity: 1;
   }
   

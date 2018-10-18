@@ -57,14 +57,14 @@ export default class Form extends Component {
   render() {
     return (
       <div className="form">
-        <div className="form__message">
+        <div className="form_message">
           { this.state.list.map((item, index) =>
             <Message key={index} message={item} />
           )}
         </div>
-        <div className="form__row">
+        <div className="form_row">
           <input
-            className="form__input"
+            className="form_input"
             type="text"
             placeholder="Type message"
             value={this.state.message}
@@ -72,7 +72,7 @@ export default class Form extends Component {
             onKeyPress={this.handleKeyPress.bind(this)}
           />
           <button
-            className="form__button"
+            className="form_button"
             onClick={this.handleSend.bind(this)}
           >
             send

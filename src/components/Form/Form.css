@@ -5,14 +5,14 @@
     width: 100%;
 }
 
-.form__row {
+.form_row {
     display: flex;
     flex-wrap: nowrap;
     width: 100%;
     padding: 20px;
 }
 
-.form__input {
+.form_input {
     width: 100%;
     padding: 15px 20px;
     border-radius: 5px 0 0 5px;
@@ -21,11 +21,11 @@
     outline: 0;
 }
 
-.form__input:focus {
+.form_input:focus {
     background-color: rgba(245, 243, 243, 0.5);
 }
 
-.form__button {
+.form_button {
     padding: 0 30px;
     background-color: #000;
     color: #fff;
@@ -35,11 +35,11 @@
     cursor: pointer;
 }
 
-.form__button:hover {
+.form_button:hover {
     background-color: rgba(0, 0, 0, .8);
 }
 
-.form__message {
+.form_message {
     width: 100%;
     padding: 0 20px;
 }
